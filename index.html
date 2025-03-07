@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뿌요 포켓몬스터 AU 썰 풀던거</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- Intro Screen -->
+        <div id="intro-screen">
+            <h1>뿌요 포켓몬 AU 배틀...</h1>
+            <p>Choose your character:</p>
+            <button class="character-btn" onclick="chooseCharacter('Arle')">Arle</button>
+            <button class="character-btn" onclick="chooseCharacter('Amitie')">Amitie</button>
+            <button class="character-btn" onclick="chooseCharacter('Ringo')">Ringo</button>
+        </div>
+
+        <!-- Battle Screen -->
+        <div id="battle-screen" style="display: none;">
+            <h2>Battle: <span id="player-name"></span> vs <span id="opponent-name"></span></h2>
+            <div id="battle-log"></div>
+            <div id="battle-upper">
+                <div id="player-screen">
+                    <h3>Your Pokémon:</h3>
+                    <img id="player-pokemon-img" src="" alt="Your Pokémon" width="100">
+                    <div id="player-hp-bar"></div>
+                </div>
+                <div id="opponent-screen">
+                    <h3>Opponent's Pokémon:</h3>
+                    <img id="opponent-pokemon-img" src="" alt="Opponent's Pokémon" width="100">
+                    <div id="opponent-hp-bar"></div>
+                </div>
+            </div>
+            <div id="battle-lower">
+                <button class="action-btn" id="skill1-btn" onclick="useSkill(1)">Skill 1</button>
+                <button class="action-btn" id="skill2-btn" onclick="useSkill(2)">Skill 2</button>
+                <button class="action-btn" id="skill3-btn" onclick="useSkill(3)">Skill 3</button>
+                <button class="action-btn" id="skill4-btn" onclick="useSkill(4)">Skill 4</button>
+            </div>            
+        </div>
+    </div>
+
+    <!-- Include External JavaScript Files -->
+    <script src="js/characters.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
