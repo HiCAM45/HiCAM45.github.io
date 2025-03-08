@@ -1,6 +1,6 @@
 const characters = {
     Arle: {
-        name: 'Arle',
+        name: '아르르',
         pokemons: [
             { name: 'Pikachu', skills: ['Thunderbolt', 'Quick Attack', 'Electro Ball', 'Thunder Wave'] },
             { name: 'Bulbasaur', skills: ['Vine Whip', 'Tackle', 'Growl', 'Leech Seed'] },
@@ -8,14 +8,14 @@ const characters = {
         ]
     },
     Amitie: {
-        name: 'Amitie',
+        name: '아미티',
         pokemons: [
             { name: 'Eevee', skills: ['Quick Attack', 'Tackle', 'Helping Hand', 'Bite'] },
             { name: 'Snorlax', skills: ['Body Slam', 'Snore', 'Rest', 'Sleep Talk'] }
         ]
     },
     Ringo: {
-        name: 'Ringo',
+        name: '링고',
         pokemons: [
             { name: 'Squirtle', skills: ['Water Gun', 'Tackle', 'Bubble', 'Withdraw'] },
             { name: 'Charizard', skills: ['Flamethrower', 'Dragon Claw', 'Fly', 'Ember'] }
@@ -25,53 +25,53 @@ const characters = {
     ,
     
     Schezo: {
-        name: 'Schezo',
+        name: '셰죠',
         pokemons: [ ]
     },
     Rulue: {
-        name: 'Rulue',
+        name: '루루',
         pokemons: [ ]
     },
     Ragnas: {
-        name: 'Ragnas',
+        name: '라그나스',
         pokemons: [ ]
     },
     Satan: {
-        name: 'Satan',
+        name: '사탄',
         pokemons: [ ]
     },
     Witch: {
-        name: 'Witch',
+        name: '윗치',
         pokemons: [ ]
     },
     Draco: {
-        name: 'Draco',
+        name: '드라코',
         pokemons: [ ]
     },
 
     
     Sig: {
-        name: 'Sig',
+        name: '시그',
         pokemons: [ ]
     },
     Raffina: {
-        name: 'Raffina',
+        name: '라피나',
         pokemons: [ ]
     },
     Klug: {
-        name: 'Klug',
+        name: '크루크',
         pokemons: [ ]
     },
     Lidelle: {
-        name: 'Lidelle',
+        name: '리델',
         pokemons: [ ]
     },
     Feli: {
-        name: 'Feli',
+        name: '페리',
         pokemons: [ ]
     },
     Lemres: {
-        name: 'Lemres',
+        name: '렘레스',
         pokemons: [ ]
     },
 

@@ -80,6 +80,7 @@ function updateHPBar(barId, currentHP, maxHP) {
     
     // Update the width of the HP bar
     hpInner.style.width = `${hpPercentage}%`;
+    updateSkillButtons();
 }
 
 function updateSkillButtons() {
