@@ -29,7 +29,7 @@ async function fetchPokemonData(pokemonName) {
 
 async function chooseCharacter(selectedCharacter) {
     character = selectedCharacter;
-    opponent = character === 'Arle' ? 'Amitie' : (character === 'Amitie' ? 'Ringo' : 'Arle');
+    opponent = character === '아르르' ? '아미티' : (character === '아미티' ? '링고' : '아르르');
     
     // Set up the player and opponent Pokémon
     playerPokemon = characters[character].pokemons;
